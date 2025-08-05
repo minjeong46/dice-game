@@ -1,0 +1,81 @@
+main {
+    width: 80rem;
+    margin: 0 auto;
+}
+.dice-box {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DEB0BA;
+}
+.dice__name {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#dice {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.85rem 0;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player {
+    padding: 4rem 8rem 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player__name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.player__score-total {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c6365f;
+}
+
+.player__score-current-box {
+    width: 10rem;
+    background-color: #c6365f;
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player__score-current--name {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.player__score-current {
+    font-size: 2rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.player__dice-button {
+    margin-bottom: 1.5rem;
+}
